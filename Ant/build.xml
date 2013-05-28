@@ -1,9 +1,9 @@
 <project>
-	<target name="cop">
+	<target name="cop" description="Copies dir tree using an input file">
 		<delete dir="j2re"/>
 		<copy todir="j2re">
 			<fileset dir="j2re.full" includesfile="includes.txt">
-				
+				<type type="file"/>
 			</fileset>
 		</copy>
 	</target>
