@@ -1,0 +1,10 @@
+<project>
+	<target name="cop">
+		<delete dir="j2re"/>
+		<copy todir="j2re">
+			<fileset dir="j2re.full" includesfile="includes.txt">
+				
+			</fileset>
+		</copy>
+	</target>
+</project>
